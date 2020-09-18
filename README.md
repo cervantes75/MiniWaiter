@@ -1,1 +1,1 @@
-# PocketWaiter
+# MiniWaiter
