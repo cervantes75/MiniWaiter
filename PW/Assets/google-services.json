@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "111119537120",
+    "firebase_url": "https://miniwaiterdb.firebaseio.com",
+    "project_id": "miniwaiterdb",
+    "storage_bucket": "miniwaiterdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111119537120:android:ddcce5561f35d08d191185",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.PW"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111119537120-20h7fkjq20f82jgr79ba2v7kls4nqvqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw5rd5_2bVwQS3vdQn6JLXocTzSk8SyXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111119537120-20h7fkjq20f82jgr79ba2v7kls4nqvqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
