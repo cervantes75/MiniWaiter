@@ -1,0 +1,27 @@
+﻿//Main menu text
+welcome=Üdvözlet
+instructions=Írd ide a kódot
+homeinput=Kód helye
+sendbtn=Küldés
+
+back=Vissza
+
+//Foods and Drinks menu
+mainD=Főételek
+vega=Vegetáriánus
+salad=Köretek
+dess=Desszertek
+appe=Előételek
+kids=Gyerekeknek
+soup=Levesek
+
+ctail=Koktélok
+wines=Borok
+bottled=Palackozott Sör
+tap=Csapolt Sör
+free=Alkoholmentes
+whisky=Whisky
+spirit=Borpárlat
+juices=Gyümölcslevek
+carbon=Szénsavas
+cofee=Kávé/Tea
