@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class LocalizationSystem : MonoBehaviour
 {
+
+    public Button HuBTN, EnBTN;
+
     //language define
     public enum Language
     {
         English,
         Hungarian
     }
-    //static ref to our current language
-    public static Language language = Language.English;
+    
+        public static Language language = Language.English;
 
     //dictionaries for the eng/hu values
     private static Dictionary<string, string> localizedEN;
