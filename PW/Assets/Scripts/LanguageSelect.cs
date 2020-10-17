@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class LanguageSelect : MonoBehaviour
 {
@@ -8,6 +10,11 @@ public class LanguageSelect : MonoBehaviour
     void Start()
     {
         
+    }
+
+    public void btnTest(Button btn)
+    {
+        Debug.Log(btn.name);
     }
 
     // Update is called once per frame

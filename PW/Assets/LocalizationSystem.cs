@@ -3,24 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class LocalizationSystem : MonoBehaviour
-{
-
-    public Button HuBTN, EnBTN;
-
-    //language define
-    public enum Language
+public enum Language
     {
         English,
         Hungarian
     }
-    
-        public static Language language = Language.English;
+
+public class LocalizationSystem : MonoBehaviour
+{
+        public Language state;
+        public static Language language;
+
+    public void GetEnumState(LocalizationSystem g)
+    {
+        language=g.state;
+    }
+
+
+ 
+
 
     //dictionaries for the eng/hu values
     private static Dictionary<string, string> localizedEN;
     private static Dictionary<string, string> localizedHU;
+
 
     //initializing all values
     public static bool isInit;
