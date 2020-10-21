@@ -40,6 +40,67 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
+    Assets/Scenes/CodeMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11842}
+    - Class: 114
+      Script: {instanceID: 11868}
+    - Class: 114
+      Script: {instanceID: 12230}
+    - Class: 114
+      Script: {instanceID: 12950}
+    - Class: 114
+      Script: {instanceID: 13176}
+    - Class: 114
+      Script: {instanceID: 13736}
+    - Class: 114
+      Script: {instanceID: 14056}
+    - Class: 114
+      Script: {instanceID: 14114}
+    - Class: 114
+      Script: {instanceID: 14474}
+    - Class: 114
+      Script: {instanceID: 14584}
+    - Class: 114
+      Script: {instanceID: 14806}
+    - Class: 114
+      Script: {instanceID: 15136}
+    - Class: 114
+      Script: {instanceID: 15244}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
     Assets/Scenes/LoggedIn.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -147,19 +208,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13736}
     - Class: 114
-      Script: {instanceID: 14056}
-    - Class: 114
       Script: {instanceID: 14114}
     - Class: 114
       Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14474}
-    - Class: 114
       Script: {instanceID: 14538}
     - Class: 114
       Script: {instanceID: 14584}
-    - Class: 114
-      Script: {instanceID: 14806}
     - Class: 114
       Script: {instanceID: 14890}
     - Class: 114
@@ -687,7 +742,7 @@ ScriptsOnlyBuild:
     className: CSVLoader
   - hash:
       serializedVersion: 2
-      Hash: 840f6d981919169a2099bfbfede91fdd
+      Hash: 1d32a4e9b482bcd31059e74a33d6ecff
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocalizationSystem
@@ -911,4 +966,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/LoggedIn.unity
+  - Assets/Scenes/CodeMenu.unity
   playerPath: T:/PocketWaiter/Build/test.apk
