@@ -1,3 +1,22 @@
+# Ignore everything
+/*
+/*/
+
+# Inverse ignore some stuff
+!/Assets/
+!/ProjectSettings/
+!.gitignore
+
+# OS Stuff
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+Desktop.ini
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
